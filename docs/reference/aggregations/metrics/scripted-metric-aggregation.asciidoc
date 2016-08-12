@@ -83,7 +83,7 @@ For more details on specifying scripts see <<modules-scripting, script documenta
 
 ==== Allowed return types
 
-Whilst and valid script object can be used within a single script. the scripts must return or store in the `_agg` object only the following types:
+Whilst any valid script object can be used within a single script, the object that the scripts return or store in the `_agg`  must be one of the following types:
 
 * primitive types
 * String
